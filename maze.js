@@ -41,8 +41,9 @@ function clap(){
 
 	var s = document.getElementById("start");
 	s.addEventListener("click",reset);
-	s.addEventListener("mouseover",working);
 	being = true;
+	s.addEventListener("mouseover",working);
+	
 
 
 	
@@ -94,7 +95,7 @@ function reset(){
 
 
 function working(){
-	document.getElementById("start").addEventListener("mouseleave", lol2);
+	document.getElementById("maze").addEventListener("mouseleave", lol2);
 }
 
 
